@@ -93,13 +93,13 @@ exports.config = {
     {
         maxInstances: 1,
         browserName: 'firefox',
-        //"moz:debuggerAddress": true,
+        "moz:debuggerAddress": true,
         "moz:firefoxOptions": {
             prefs: {
                 "browser.download.dir": downloadDir,
-                //"browser.download.folderList": 2,
-                //"browser.download.manager.showWhenStarting": false,
-                //"browser.helperApps.neverAsk.saveToDisk": "*/*"
+                "browser.download.folderList": 2,
+                "browser.download.manager.showWhenStarting": false,
+                "browser.helperApps.neverAsk.saveToDisk": "*/*"
             }
         }
     }],
